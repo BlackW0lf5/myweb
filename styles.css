@@ -157,3 +157,33 @@ img{
 	padding-bottom: 50px;
 	box-shadow: 1px 1px 10px lightgray;
 }
+
+h1{
+	animation: apparition .8s ease-out;
+}
+
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.navigation{
+	animation: apparition .8s ease-out;
+}
+
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
