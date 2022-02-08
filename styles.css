@@ -132,32 +132,15 @@ img{
 	border: 1px solid lightgray;
 }
 
-.container{
-	max-width: 1300px;
-	width: 80%;
-	height: auto;
-	margin: 30px auto;
+.testos{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 290px);
-	justify-content: center;
-	grid-gap: 30px;
-	grid-row-gap: 100px;
-	border: 1px solid lightgray;
-	background-color: #FFF;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	list-style-type: none;
 	text-align: center;
-}
-
-.item{
+	background-color: #FFF;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
-	list-style-type: none;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	width: 200px;
-	height: auto;
-	text-align: center;
-}
-
-.testos{
-	display: inline-flex;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	box-shadow: 1px 1px 10px lightgray;
 }
